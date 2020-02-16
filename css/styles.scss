@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+.wrapper{
+    min-height:100vh;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.puff{
+    position:absolute;
+    background: url(../images/puff.png) no-repeat;
+    display:none;
+    height:113px;
+    width:128px;
+}
+
+.drag-n-drop{
+    width:610px;
+}
+
+.delete-area{
+    border:1px solid skyblue;
+    height:100px;
+    display:flex;
+    padding:0 -5px;
+    flex-flow:row nowrap;
+    justify-content: center;
+    align-items:center;
+}
+
+.delete-item{
+    margin:0 5px;
+}
+
+.images-holder{
+    margin-top:10px;
+}
+
+.dragable-cursor{
+    cursor: move;
+}
+
+.dropAreaHover { 
+    border:1px dashed skyblue;
+    background-color: #dce775; 
+}
